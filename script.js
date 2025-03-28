@@ -1,7 +1,8 @@
 var isDate = function (input) {
   //   write your code here
 	let ans=new Date(input)
-	if(input.toString() !=="Invalid Date" && !isNaN(input)){
+	
+	if(ans.toString() !=="Invalid Date" && !isNaN(ans)){
 		return true
 	}
 	else{
